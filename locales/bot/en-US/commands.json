@@ -1,0 +1,60 @@
+{
+  "help": {
+    "title": "{{username}} - Safety, protection, social, and minimalism.",
+    "description": "The all-in-one bot that will help you with everything your server needs.",
+    "fields": {
+      "commands": "Complete list of my commands",
+      "support": "Do you need help?"
+    }
+  },
+  "about": {
+    "description": [
+      "{{emojis.beta}} **The all-in-one bot that will help you with everything your server needs.** _Safety, protection, social, and minimalism._",
+      "{{emojis.lightning}} I was written in Typescript by {{owners}} using [Discord.js](https://discord.js.org)",
+      "Use {{help}} for help and more information.",
+      "",
+      "[**Add {{username}} to your server**]({{urls.add}})",
+      "",
+      "{{links}}"
+    ],
+    "guilds": "guilds"
+  },
+  "invite": {
+    "click": "Click on the button to add me to your server!",
+    "button": "Add {{username}} to your server"
+  },
+  "ping": {
+    "question": "Ping?",
+    "response": "Pong! (Roundtrip took: `{{diff}}ms`. Heartbeat: `{{heartbeat}}ms`.)"
+  },
+  "balance": {
+    "userHas": "{{user}} has **{{coins}} Fastcoins** in their account."
+  },
+  "daily": {
+    "canCollectIn": "You've already claimed your daily reward. You can do it again in **{{canCollectIn}}**",
+    "collected": "You've received **{{collectedCoins}} Fastcoins** as your daily reward!"
+  },
+  "pay": {
+    "insufficientCoins": "You don't have enough Fastcoins for that!",
+    "sent": "You sent **{{amount}} Fastcoins** to {{user}}."
+  },
+  "ban": {
+    "noReason": "No reason provided.",
+    "banned": "**Member was banned!**",
+    "reason": "{{member}} - Reason: `{{reason}}`",
+    "cantBan": "**I can't ban this member!**"
+  },
+  "bio": {
+    "subCommands": {
+      "update": {}
+    }
+  },
+  "leaderboard": {
+    "subCommands": {
+      "coins": {},
+      "reps": {}
+    }
+  },
+  "profile": {},
+  "rep": {}
+}

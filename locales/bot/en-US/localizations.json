@@ -1,0 +1,124 @@
+{
+  "about": {
+    "name": "about",
+    "description": "Sends information about me."
+  },
+  "help": {
+    "name": "help",
+    "description": "Shows information about commands."
+  },
+  "invite": {
+    "name": "invite",
+    "description": "Send an invite link to add the bot."
+  },
+  "ping": {
+    "name": "ping",
+    "description": "Verify if the bot is online."
+  },
+  "eval": {
+    "name": "eval",
+    "description": "Evaluates a JS expression.",
+    "options": {
+      "code": {
+        "name": "code",
+        "description": "The code to evaluate."
+      }
+    }
+  },
+  "balance": {
+    "name": "balance",
+    "description": "Shows how many Fastcoins someone has.",
+    "options": {
+      "user": {
+        "name": "user",
+        "description": "User to lookup."
+      }
+    }
+  },
+  "daily": {
+    "name": "daily",
+    "description": "Claims your daily reward."
+  },
+  "pay": {
+    "name": "pay",
+    "description": "Pays Fastcoins to a user.",
+    "options": {
+      "user": {
+        "name": "user",
+        "description": "User to pay."
+      },
+      "amount": {
+        "name": "amount",
+        "description": "Amount of Fastcoins to pay."
+      }
+    }
+  },
+  "ban": {
+    "name": "ban",
+    "description": "Bans a member from this server.",
+    "options": {
+      "member": {
+        "name": "member",
+        "description": "The member to ban."
+      },
+      "reason": {
+        "name": "reason",
+        "description": "The reason for the ban."
+      },
+      "soft": {
+        "name": "soft",
+        "description": "Ban and unban the user just by deleting their messages."
+      }
+    }
+  },
+  "bio": {
+    "name": "bio",
+    "description": "Manage the biography of your profile.",
+    "subCommands": {
+      "update": {
+        "name": "update",
+        "description": "Sets a biography on your profile.",
+        "options": {
+          "biography": {
+            "name": "biography",
+            "description": "The text that will be the new biography."
+          }
+        }
+      }
+    }
+  },
+  "leaderboard": {
+    "name": "leaderboard",
+    "description": "Shows a leaderboard.",
+    "subCommands": {
+      "coins": {
+        "name": "coins",
+        "description": "Shows a list of the richest users."
+      },
+      "reps": {
+        "name": "reps",
+        "description": "Shows a list of the users with the most reputation points."
+      }
+    }
+  },
+  "profile": {
+    "name": "profile",
+    "description": "Shows yours or someone else's profile.",
+    "options": {
+      "user": {
+        "name": "user",
+        "description": "User to lookup."
+      }
+    }
+  },
+  "rep": {
+    "name": "rep",
+    "description": "Gives a reputation point to someone.",
+    "options": {
+      "user": {
+        "name": "user",
+        "description": "User to give the reputation point."
+      }
+    }
+  }
+}
